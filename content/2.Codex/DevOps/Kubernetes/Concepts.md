@@ -1,5 +1,5 @@
 ---
-title: Concepts
+title: What is it
 description: Super beginner introduction to Kubernetes
 seo:
   title: Kubernetes like im 5

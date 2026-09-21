@@ -5,7 +5,7 @@
         <template #left>
           <UPageAside>
             <DocsAsideLeftTop />
-            <DocsAsideLeftBody />
+            <CustomAsideNavigation />
           </UPageAside>
         </template>
 

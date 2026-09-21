@@ -23,7 +23,7 @@ An engineering journal documenting real infrastructure, production-inspired home
   ---
   color: neutral
   size: xl
-  to: /landing/introduction
+  to: /agora/introduction
   trailing-icon: i-lucide-arrow-right
   ---
   Start Reading
