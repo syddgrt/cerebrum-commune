@@ -1,0 +1,11 @@
+/* Landing page spacing */
+[data-content-id="landing/index.md"] > [data-slot="root"] {
+  gap: 1rem !important; /* default is much larger */
+}
+
+/* Hero */
+[data-content-id="landing/index.md"] [data-slot="container"] {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  row-gap: 1.25rem !important;
+}

@@ -1,6 +1,11 @@
 ---
 title: Local LLM
 description: Running a local LLM using lightweight inferences (llama.cpp)
+date: 2026-09-11
+category: Linux
+readingTime: 15
+featured: true
+published: true
 ---
 
 The concept of being able to run a local llm right from your device is crazy especially if its ran on edge devices.

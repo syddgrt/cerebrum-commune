@@ -1,12 +1,18 @@
 ---
-title: Manual Arch Linux Installation (Simple)
-description: A minimal, no-BS checklist for installing Arch Linux manually.
+title: Manual Arch Linux Installation Explained
+description: A practical walkthrough explaining why each installation step matters.
+date: 2026-09-18
+category: Linux
+readingTime: 15
+featured: true
+published: true
 ---
 
 ## Overview (Super Simplified)
 
-This guide documents a **simple manual Arch Linux installation**.  
-It is intentionally minimal and try to highlights why we do this and we do that, basically just enough to get a **booting, usable system**, while helping readers understand atleast at a **very high level view of why certain steps are done**
+This guide documents a **simple manual Arch Linux installation**.
+
+It is intentionally minimal and focuses on **why** each step matters rather than simply listing commands. The goal is to get a **bootable, usable Arch system** while helping readers build a high-level mental model of the installation process.
 
 ---
 

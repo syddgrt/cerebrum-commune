@@ -1,19 +1,22 @@
 ---
 seo:
   title: syedrious
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  description: A personal engineering journal documenting Azure, Kubernetes, Linux and Cloud Native infrastructure.
 ---
 
-::div{class="hero-bg"}
-
 ::u-page-hero
+---
+ui:
+  root: "py-8 lg:py-12"
+---
+
 #title
-<TypingText text="Syed Muhammad Haikal bin Syed Husni" />
+<TypingText text="Syed Muhammad Haikal" />
 
 #description
-Cloud Native Enthusiast.
+Cloud Operations Engineer · Azure · Kubernetes · Linux
+
+An engineering journal documenting real infrastructure, production-inspired homelab experiments, and the lessons learned while building cloud-native systems.
 
 #links
   :::u-button
@@ -23,63 +26,89 @@ Cloud Native Enthusiast.
   to: /landing/introduction
   trailing-icon: i-lucide-arrow-right
   ---
-  Documentation
+  Start Reading
   :::
 
   :::u-button
   ---
   color: neutral
+  variant: outline
   size: xl
   to: /syed-portfolio/aboutme
-  trailing-icon: i-lucide-arrow-right
+  icon: i-lucide-user
   ---
-  About Syed
+  About Me
   :::
 
   :::u-button
   ---
   color: neutral
-  icon: simple-icons-github
+  variant: outline
   size: xl
   to: https://github.com/syddgrt
-  variant: outline
+  icon: simple-icons-github
+  target: _blank
   ---
   GitHub
   :::
 ::
+---
+::div{class="max-w-4xl mx-auto"}
+## Latest Articles
+
+  ::home-latest
+  ::
 
 ::
+---
+::div{class="max-w-4xl mx-auto"}
 
+## Current Focus
 
-<div class="mt-8 flex justify-center">
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl">
+::card-group
+  :::card
+  ---
+  icon: i-lucide-cloud
+  title: Azure Kubernetes Service
+  ---
+  Operating production AKS clusters across APAC with a focus on upgrades, reliability, and workload identity.
+  :::
 
-  <div class="flex items-start gap-4">
-    <span class="text-primary">
-      <Icon name="lucide:book-open" size="24" />
-    </span>
-    <div>
-      <h3 class="font-semibold text-lg">Documentation</h3>
-      <p class="text-muted">
-        Structured technical notes organized by domain, including Cloud, DevOps,
-        Linux, Machine Automation, and Site Reliability Engineering.
-      </p>
-    </div>
-  </div>
+  :::card
+  ---
+  icon: i-lucide-cpu
+  title: Homelab Kubernetes
+  ---
+  Raspberry Pi k3s cluster powering Grafana, Prometheus, Traefik, and GitOps experiments.
+  :::
 
-  <div class="flex items-start gap-4">
-    <span class="text-primary">
-      <Icon name="lucide:user" size="24" />
-    </span>
-    <div>
-      <h3 class="font-semibold text-lg">Portfolio</h3>
-      <p class="text-muted">
-        Professional background, certifications, experience, and selected
-        projects presented as case studies.
-      </p>
-    </div>
-  </div>
+  :::card
+  ---
+  icon: i-lucide-graduation-cap
+  title: Learning
+  ---
+  CKA · GitOps · Observability · MLOps fundamentals.
+  :::
 
-  </div>
-</div>
+  :::card
+  ---
+  icon: i-lucide-tree-pine
+  title: Life
+  ---
+  To live life to the fullest while enjoying every moment.
+  :::
+::
 
+---
+
+### Engineering Philosophy
+
+> *The best engineers don't memorize commands—they build mental models.*
+
+I document failures, debugging sessions, architecture decisions, and the reasoning behind them, so every article captures **how the solution was discovered**, not just the final command.
+
+---
+
+::div{class="text-center text-sm text-muted"}
+Built with Nuxt · Written in Obsidian · Published through GitHub · © 2026 Syed Muhammad Haikal
+::

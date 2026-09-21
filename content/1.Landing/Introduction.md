@@ -8,9 +8,7 @@ order: 1
 This documentation exists primarily as a **personal knowledge base** and a way to share how I understand systems, tooling, and engineering concepts.
 
 It reflects **my own perspective, experience, and mental models**.  
-I might be wrong. I might oversimplify things. If something feels ambiguous or incorrect, **always cross-check with other sources**.
-
-
+I might be wrong. I might oversimplify things, i might be hallucinating. If something feels ambiguous or incorrect, **always cross-check with other sources**.
 
 
 This documentation will consists of multiple major topics ranging from
